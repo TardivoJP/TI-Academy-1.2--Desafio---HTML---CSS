@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.center{
+    align-items: center;
+}
+section{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    border-right: 0.15rem solid #000;
+}
+li{
+    padding: 0.5rem;
+}
+.ajusteFontLi{
+    font-size: clamp(0.5rem, 2.5vw, 4.5rem);
+    cursor: pointer;
+}
+.margemSpan{
+    margin-right: 0.5rem;
+}
